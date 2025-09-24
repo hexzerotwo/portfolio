@@ -1,16 +1,22 @@
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/mldpeaek"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+</head>
+<body>
+  <form action="https://formspree.io/f/mldpeaek" method="POST">
+    <label>
+      Your email:
+      <input type="email" name="email" required>
+    </label>
+    <br>
+    <label>
+      Your message:
+      <textarea name="message" required></textarea>
+    </label>
+    <br>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
